@@ -13,4 +13,4 @@ game:GetService('RunService').Stepped:connect(function(t, dt)
 rot = rot + dt * rotspeed
 lpr.CFrame = rotation * CFrame.new(sin(rot)*eclipse, 0, cos(rot)*radius) + player.Position
 end)
-end)
+
